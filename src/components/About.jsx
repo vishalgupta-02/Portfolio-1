@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div className="h-[90vh] grid grid-cols-2 text-white rounded relative w-[1080px] mx-auto my-10">
+    <div className="h-[90vh] grid grid-cols-2 text-white rounded relative w-[1080px] mx-auto my-10 px-8 py-8">
       <div className="flex flex-col gap-2 justify-start items-start mt-20">
         <p className="text-primary">About Me</p>
         <h1 className="text-5xl flex-wrap leading-tight teko-medium">I can deliver results that exceed your expectation.</h1>

@@ -1,11 +1,10 @@
-import {Navbar, About, Contact, Footer, Hero, Projects, Ribbon, Services} from './components/index.js'
+import { About, Contact, Footer, Projects, Ribbon, Services, Header} from './components/index.js'
 
 const  App = () => {
   return (
     <div className='w-full relative bg-black overflow-x-hidden'>
-      <Navbar/>
       <div>
-        <Hero/>
+        <Header/>
         <About/>
         <Ribbon/>
         <Services/>

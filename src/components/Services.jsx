@@ -49,7 +49,7 @@ const Tools = () => {
   return (
     <div className="w-[1080px] mx-auto my-10">
       <div className="flex flex-col justify-between items-center w-full rounded-lg bg-[#1A1A1A] p-4 text-white">
-        <p className="text-primary text-xl teko-medium">Services</p>
+        <p className="text-primary text-xl">Services</p>
         <h1 className="text-white text-7xl teko-medium w-2/3 text-center">Available Services that I can work on</h1>
         <div className="flex flex-col justify-start items-center w-full">
           {/* Design Visual */}

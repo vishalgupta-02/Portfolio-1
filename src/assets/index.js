@@ -1,3 +1,6 @@
+import luffy from './luffy.jpeg'
+
+export { luffy }
 
 const NavLinks = [
     {
@@ -68,6 +71,26 @@ const ribbonData = [
       id: 10,
       title: "WEBFLOW DEVELOPMENT",
     }
-  ]
+]
+const projectsData = [
+  {
+    id: 1,
+    title: "Project 1",
+    description: "",
+    image: luffy,
+  }, 
+  {
+    id: 2,
+    title: "Project 2",
+    description: "",
+    image: luffy,
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    description: "",
+    image: luffy,
+  }
+]
 
-export {NavLinks , ribbonData }
+export {NavLinks , ribbonData, projectsData}
